@@ -1,0 +1,66 @@
+body{
+    margin:0;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+.hdng{
+    
+    /* background-color:aliceblue; */
+    color:black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding:15px;
+    color:darkslategrey;
+    text-align: center;
+    background-color:aquamarine;
+}
+
+.hdng1{
+    /* margin-top: 0%; */
+    /* padding:20px; */
+    font-size:larger;
+    font-family:sans-serif;
+    padding:20px;
+
+}
+
+.list{
+    margin-left: 15%;
+    font-size:medium;
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+  background-color:darksalmon;
+  border: 3px solid black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color:#555;
+}
+
+.div.footer{
+  
+  text-decoration:none;;
+}
+
+.butn{
+  text-decoration: none;
+}

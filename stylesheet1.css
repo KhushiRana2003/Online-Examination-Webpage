@@ -1,0 +1,52 @@
+body{
+    background-image: url('exam\ pic.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 span{
+    text-anchor:middle;
+    background:linear-gradient(to right,turquoise,skyblue);
+    padding:10px 55px;
+    border-radius: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    color:black;
+    font-family:sans-serif;
+    
+}
+.butn{
+    text-decoration: none;
+    position: fixed;
+    width: 180px;
+    height:45px;
+    line-height:45px;
+    bottom:10%;
+    right:3%;
+    border-radius: 10px;
+    text-align: center;
+    cursor:pointer;
+    font-size:20px;
+    color:black;
+    font-family: sans-serif;
+    background-color: #ff3cac;
+    background-image: linear-gradient(225deg,#27d86c 0%,#26caf8,#c625d0 100%);
+}
+
+/* .butn{
+
+   text-transform:uppercase;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight:900px;
+  color:black; 
+} */
+
+
+.butn:hover{
+    transform:translate(0,-6px);
+    box-shadow:10px -10px 25px 0 rgba(143,64,248,0.5),-10px 10px 25px 0 rgba(39,200,255,0.5);
+}
+
